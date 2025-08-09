@@ -4,4 +4,12 @@
 
 ### Code organization
 
-Anything not inside `src\` was provided by the board manufacturer for reference, but itsn't used in production code.
+```
+documentation/      // Code and exampled provided by board manufacturer
+lib/                // 3rd party libraries used in the project
+src/                // Code that will be compiled into the board
+utils/              // Temp util scripts used for one off-tasks
+.gitignore          // Files not version controled or uploaded
+platformio.ini      // All the config files for the project
+README              // You are here
+```
